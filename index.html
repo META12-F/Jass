@@ -18,21 +18,46 @@
             </div>
         </section>
 
-        <!-- Fase 2: El Reto -->
-        <section id="game" class="screen hidden">
-            <h1>¿Es Jass Chavez imposible de convencer?</h1>
-            <div class="btn-container">
-                <button id="btn-no">No, soy fácil</button>
-                <button id="btn-yes">Totalmente</button>
+        <!-- Fase 2: Términos y Condiciones -->
+        <section id="tnc" class="screen hidden">
+            <div class="card">
+                <h2>⚠️ Advertencia del Sistema</h2>
+                <p>Se ha detectado un alto nivel de terquedad en el sujeto.</p>
+                <div class="checkbox-container">
+                    <label>
+                        <input type="checkbox" id="agree-check"> Acepto que si pierdo este reto, mi orgullo quedará severamente dañado.
+                    </label>
+                </div>
+                <button id="btn-continue" disabled>Iniciar Prueba</button>
             </div>
         </section>
 
-        <!-- Fase 3: Final -->
+        <!-- Fase 3: El Reto 1 -->
+        <section id="game" class="screen hidden">
+            <h1>¿Es Jass Chavez imposible de convencer?</h1>
+            <div class="btn-container">
+                <button id="btn-no" class="btn-static">No, soy fácil</button>
+                <button id="btn-yes" class="btn-runner">Totalmente</button>
+            </div>
+        </section>
+
+        <!-- Fase 4: La Apuesta -->
+        <section id="drinks" class="screen hidden">
+            <h1>¡Ok, tienes buenos reflejos!</h1>
+            <p>Pero para pasar la prueba al 100%, hay que definir las reglas.</p>
+            <p>¿Quién invita la primera ronda?</p>
+            <div class="btn-container">
+                <button id="btn-jass-pays" class="btn-static">Yo invito (Jass)</button>
+                <button id="btn-david-pays" class="btn-runner">Tú invitas (David)</button>
+            </div>
+        </section>
+
+        <!-- Fase 5: Final -->
         <section id="final" class="screen hidden">
             <div class="card">
                 <h2>Veredicto Final</h2>
-                <p>Parece que alguien es más curiosa de lo que admite.</p>
-                <p>Prueba superada, Jass. 😉</p>
+                <p>Parece que alguien no es tan inaccesible después de todo.</p>
+                <p>Trato hecho, tú invitas. Pon el día y la hora. 😉</p>
                 <small>Desarrollado por David Alonso</small>
             </div>
         </section>
