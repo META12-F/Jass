@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis de Perfil: Jass Chavez</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Fase 1: Terminal de Carga -->
+        <section id="loader" class="screen">
+            <div class="terminal">
+                <p class="typing">> Inicializando escaneo...</p>
+                <p class="typing delay-1">> Objetivo localizado: Jass Chavez</p>
+                <p class="typing delay-2">> Analizando nivel de "Dificultad"...</p>
+                <p class="typing delay-3">> Error: Nivel fuera de parámetros.</p>
+            </div>
+        </section>
+
+        <!-- Fase 2: El Reto -->
+        <section id="game" class="screen hidden">
+            <h1>¿Es Jass Chavez imposible de convencer?</h1>
+            <div class="btn-container">
+                <button id="btn-no">No, soy fácil</button>
+                <button id="btn-yes">Totalmente</button>
+            </div>
+        </section>
+
+        <!-- Fase 3: Final -->
+        <section id="final" class="screen hidden">
+            <div class="card">
+                <h2>Veredicto Final</h2>
+                <p>Parece que alguien es más curiosa de lo que admite.</p>
+                <p>Prueba superada, Jass. 😉</p>
+                <small>Desarrollado por David Alonso</small>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
